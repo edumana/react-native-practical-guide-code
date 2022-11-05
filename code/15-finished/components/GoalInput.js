@@ -51,9 +51,10 @@ export default GoalInput;
 const styles = StyleSheet.create({
   inputContainer: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'center',
     padding: 16,
+    paddingTop: '20%',
     backgroundColor: '#311b6b',
   },
   image: {
